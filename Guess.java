@@ -29,8 +29,7 @@ public class Guess {
 				//System.out.println("Your guess is high");
 		}
 		JOptionPane.showMessageDialog(null, "You guessed it right in "+trails+"trails", "Number Guessing Game",  JOptionPane.INFORMATION_MESSAGE);
-		//System.out.println("You win.......");
-		//System.out.println("You have guessed my choosen number "+compunumber+" in "+trails+" guesses.");
+		System.out.println("You win.......");
 		System.out.println("Thankyou!! Come again");
 		sc.close();
 	}
